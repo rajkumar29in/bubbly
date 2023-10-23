@@ -1,4 +1,4 @@
-window.bubbly = function (userConfig = {}) {
+window.bubbly = function (userConfig = {}) {[
     // we need to create a canvas element if the user didn't provide one
     const cv = userConfig.canvas ?? (() => {
         let canvas = document.createElement("canvas");
